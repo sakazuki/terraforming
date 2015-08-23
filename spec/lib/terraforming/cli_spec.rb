@@ -158,6 +158,13 @@ module Terraforming
         it_behaves_like "CLI examples"
       end
 
+      describe "nif" do
+        let(:klass)   { Terraforming::Resource::NetworkInterface }
+        let(:command) { :nif }
+
+        it_behaves_like "CLI examples"
+      end
+
       describe "r53r" do
         let(:klass)   { Terraforming::Resource::Route53Record }
         let(:command) { :r53r }
