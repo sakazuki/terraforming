@@ -1,3 +1,14 @@
+# [v0.3.0](https://github.com/dtan4/terraforming/releases/tag/v0.3.0) (2015-08-23)
+
+## Resource
+
+- AWS Network Interface #127 (thanks @sakazuki)
+- AWS Elastic IP #124 (thanks @sakazuki)
+
+## Fixed
+
+- Normalize module name of IAM user #129
+
 # [v0.2.0](https://github.com/dtan4/terraforming/releases/tag/v0.2.0) (2015-08-22)
 
 ## New feature
@@ -10,10 +21,6 @@
 - Exclude DB security group with empty ingress rules #120
 - Include associated VPC parameters in Route53 hosted zone #119
 - Support Route53 hosted zone with empty delegation set #118
-
-### Fixed
-
-- Stop including ElastiCache port at any time #112
 
 # [v0.1.6](https://github.com/dtan4/terraforming/releases/tag/v0.1.6) (2015-08-10)
 
